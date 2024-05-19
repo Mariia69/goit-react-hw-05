@@ -1,6 +1,6 @@
 import axios from "axios";
 axios.defaults.baseURL = 'https://api.themoviedb.org/3/';
-const tokenAPI = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJkYzlhOWZjMjRiODYwMjczM2YwMThiNzQ1NjExMTU5MCIsInN1YiI6IjY2MmFiMDhmOWFjNTM1MDExYzhlZDJhOSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.T8WisobdK1jXGSdZtS7YOdT9FnVlS_UOhzY7AcGN3yw";
+const tokenAPI = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJlOTRiNWQ0ZTFjMmIyYjRhYTcwMDhhZGNlYTYxMmNiNCIsInN1YiI6IjY2NDllZThhNzNjZGI0NGJiZjJmYmJiOSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.rib-RBb-yyYTdIPCyyzJBXu_7XyZiDX5mrMMnc0RzzA";
 axios.defaults.headers.common["Authorization"] = `Bearer ${tokenAPI}`;
 
 
