@@ -9,8 +9,6 @@ import MovieReviews from './components/MovieReviews/MovieReviews';
 import MovieCast from './components/MovieCast/MovieCast';
 
 
-
-
 function App() {
   return (  
     <>
