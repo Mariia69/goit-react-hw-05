@@ -1,0 +1,13 @@
+.navigationList {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navigationLink {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .navigationLink:active {
+    color: orange;
+  }

@@ -1,0 +1,14 @@
+.movieDescription {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .overview {
+    width: 800px;
+  }
+  
+  .genresContainer {
+    display: flex;
+    gap: 20px;
+  }
+  
